@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the quiz */
+.container {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Question styling */
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Input field for user answers */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button style */
+.submit-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Result display */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Correct and incorrect styles */
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
